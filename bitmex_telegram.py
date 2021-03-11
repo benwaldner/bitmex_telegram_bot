@@ -64,5 +64,5 @@ def bitmex_funding_rate_trigger(ticker, sma_period, anomaly_threshold_percent, t
 
 
 if __name__ == '__main__':
-    bitmex_funding_rate_trigger('ETHUSD', 10000, 500, '1581736303:AAEHCPSXQ_xnEhJezBJEY-knInNrhBkLzFg', -1001346338431,
+    bitmex_funding_rate_trigger('ETHUSD', 10000, 500, 'Telegram BOT Key', 'Chat ID',
                                 'Bias: Bearish, please avoid longs', 'Bias: Bullish, please avoid shorts')
