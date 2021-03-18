@@ -56,5 +56,5 @@ def bitmex_funding_rate_trigger(ticker, sma_period, anomaly_threshold_percent, t
 
 
 if __name__ == '__main__':
-    bitmex_funding_rate_trigger('<ticker>', <period>, <anomaly_threshold_percent>, '<Telegram_BotID>', <chat_id>,
-                                '<bearish_bias_msg>', '<bullish_bias_msg>')
+    bitmex_funding_rate_trigger('XBTUSD', 10000, 0.1, '<telegram_bot_token>', '<telegram_chat_id>',
+                                'Bias: Bearish, please avoid longs', 'Bias: Bullish, please avoid shorts')
